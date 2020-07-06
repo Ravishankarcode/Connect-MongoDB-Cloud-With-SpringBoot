@@ -28,3 +28,7 @@ spring.data.mongodb.database=ProfileApp
 3. After Running your application you can see your save value in Spring Cloud.
 
 ![](images/MongoClusterCollections.PNG)
+
+##Note: 
+
+At the time any interaction with MongoDB Cloud, make sure your `VPN` is disconnected.
