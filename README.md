@@ -2,12 +2,29 @@
 
 Step to Connect MongoDB Cloud Using Spring Boot
 
-1. First Connect to MongoDB Cloud using MongoDB Compass Community using below string value or refrence Image.
+1. First Connect to MongoDB Cloud by using MongoDB Compass Community .
 
+syntex::
 ```
-mongodb+srv://<username>:<password>@profilemongocluster01.v8s6i.mongodb.net/ProfileApp
+mongodb+srv://<username>:<password>@<hostname>/<dbname>
+```
+Example::
+```
+mongodb+srv://profiledbuser:<password>@profilemongocluster01.v8s6i.mongodb.net/ProfileApp
 ```
 
                  or
    
 
+![](images/ConnectionToMongoDBCloud.PNG)
+
+2. In Properties File, you have to add two key-value pairs.
+
+```
+spring.data.mongodb.uri=mongodb+srv://profiledbuser:<password>@profilemongocluster01.v8s6i.mongodb.net/ProfileApp?retryWrites=true&w=majority
+spring.data.mongodb.database=ProfileApp
+```
+
+3. After Running your application you can see your save value in Spring Cloud.
+
+![](MongoClusterCollections.PNG)
