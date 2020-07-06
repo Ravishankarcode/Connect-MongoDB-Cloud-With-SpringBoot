@@ -27,4 +27,4 @@ spring.data.mongodb.database=ProfileApp
 
 3. After Running your application you can see your save value in Spring Cloud.
 
-![](MongoClusterCollections.PNG)
+![](images/MongoClusterCollections.PNG)
