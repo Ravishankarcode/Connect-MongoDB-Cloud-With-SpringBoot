@@ -29,6 +29,6 @@ spring.data.mongodb.database=ProfileApp
 
 ![](images/MongoClusterCollections.PNG)
 
-##Note: 
+## Note: 
 
 At the time any interaction with MongoDB Cloud, make sure your `VPN` is disconnected.
